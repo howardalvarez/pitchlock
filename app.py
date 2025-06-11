@@ -12,7 +12,7 @@ def load_logo_base64(path):
     with open(path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
 
-logo_base64 = load_logo_base64("your_logo.png")  # ⬅️ Replace with your logo file
+logo_base64 = load_logo_base64("logo.png")  # ⬅️ Replace with your logo file
 
 # --- HEADER STYLE & HTML ---
 st.markdown(f"""
